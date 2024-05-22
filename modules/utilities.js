@@ -26,4 +26,10 @@ function makeMoney(amount) {
 }
 
 // if you have multiple functions to export, you can put them in object
-module.exports = { capitalizeWords, makeMoney };
+// module.exports = { capitalizeWords, makeMoney };
+
+// if you export one thing we use 'default'
+// export default capitalizeWords;
+
+// for multiple contents to export
+export { capitalizeWords, makeMoney };
